@@ -1,4 +1,4 @@
-# Color_Selector
+# Color_Selector (Android)
 
 An Android application that allows users to interactively mix, select, and view colors using RGB components. The app updates a live color preview along with corresponding HEX and RGB values in real time.
 
