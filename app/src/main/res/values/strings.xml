@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Color_Selector</string>
+    <string name="title">Color Selector</string>
+    <string name="titleV2">Color Selection</string>
+    <string name="colorDescription">Users selected color</string>
+    <string name="hexDefault">Color HEX: #408000</string>
+    <string name="defaultRGB">Color RGB: (64, 128, 0)</string>
+    <string name="redDefault">64</string>
+    <string name="red">"Red: "</string>
+    <string name="green">128</string>
+    <string name="greenText">"Green: "</string>
+    <string name="blue">"Blue: "</string>
+    <string name="greenDefault">128</string>
+    <string name="blueDefault">0</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="buttonBlue">Blue</string>
+    <string name="buttonReset">Reset</string>
 </resources>
