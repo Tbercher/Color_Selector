@@ -5,6 +5,7 @@
     <string name="colorDescription">Users selected color</string>
     <string name="hexDefault">Color HEX: #408000</string>
     <string name="defaultRGB">Color RGB: (64, 128, 0)</string>
+    <string name="color_rgb_format">Color RGB: (%1$s, %2$s, %3$s)</string>
     <string name="redDefault">64</string>
     <string name="red">"Red: "</string>
     <string name="green">128</string>
