@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="32dp"
         android:max="255"
         android:progress="64"
         app:layout_constraintEnd_toEndOf="@+id/buttonBlue"
@@ -78,7 +78,7 @@
         android:id="@+id/textViewR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="2dp"
         android:text="@string/redDefault"
         app:layout_constraintBottom_toBottomOf="@+id/seekBarRed"
@@ -110,11 +110,9 @@
         android:id="@+id/textViewG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
         android:layout_marginBottom="1dp"
         android:text="@string/greenDefault"
         app:layout_constraintBottom_toBottomOf="@+id/seekBarGreen"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textViewR"
         app:layout_constraintTop_toTopOf="@+id/seekBarGreen" />
 
@@ -142,11 +140,9 @@
         android:id="@+id/textViewB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
         android:text="@string/blueDefault"
         app:layout_constraintBottom_toBottomOf="@+id/seekBarBlue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/seekBarBlue"
+        app:layout_constraintStart_toStartOf="@+id/textViewG"
         app:layout_constraintTop_toTopOf="@+id/seekBarBlue" />
 
     <SeekBar

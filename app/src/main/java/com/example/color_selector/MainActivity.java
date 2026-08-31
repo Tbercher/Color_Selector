@@ -1,3 +1,7 @@
+
+// Assignment 02
+// MainActivity.java
+// Trevor Bercher And Bogdan Gerasymenko
 package com.example.color_selector;
 
 import android.graphics.Color;
